@@ -142,7 +142,7 @@ spec:
               - key: node-role.kubernetes.io/master
                 operator: In
                 values:
-                - true
+                - pool1
       serviceAccountName: cluster-autoscaler
       containers:
         - name: cluster-autoscaler
